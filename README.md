@@ -7,7 +7,7 @@ Welcome to our project! We appreciate your interest in contributing. Please foll
 1. **Clone the Repository:**
    - Start by cloning the repository to your local machine:
      ```bash
-     git clone https://github.com/your-username/your-repo.git
+     git clone https://github.com/pandeyaman2170/SDE-Practice2.git
      ```
 
 ## Making Changes
