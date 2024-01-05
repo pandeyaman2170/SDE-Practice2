@@ -7,7 +7,8 @@ Welcome to our project! We appreciate your interest in contributing. Please foll
 1. **Clone the Repository:**
    - Start by cloning the repository to your local machine:
      ```bash
-     git clone https://github.com/your-username/your-repo.git
+     git init
+     git remote add origin https://github.com/pandeyaman2170/SDE-Practice2.git
      ```
 
 ## Making Changes
@@ -15,12 +16,14 @@ Welcome to our project! We appreciate your interest in contributing. Please foll
 2. **Create a Feature Branch:**
    - Create a new branch locally for your changes. Make sure to name it appropriately:
      ```bash
-     git checkout -b feature-branch
+     git pull origin main
+     git branch feature-branch
+     git checkout feature-branch
      ```
    - This helps in keeping your changes isolated and makes the collaboration process smoother.
 
 3. **Make Changes:**
-   - Implement your changes and improvements in the feature branch.
+   - Implement your changes and improvements in the feature branch only.
 
 4. **Commit Your Changes:**
    - Commit your changes to the feature branch:
@@ -35,6 +38,8 @@ Welcome to our project! We appreciate your interest in contributing. Please foll
    - Once you are ready to contribute your changes, push the feature branch to the remote repository:
      ```bash
      git push origin feature-branch
+     git checkout main
+     git merge feature-branch
      ```
    - Visit the GitHub repository and create a Pull Request from your feature branch.
    - Provide a clear title and description for your Pull Request.
