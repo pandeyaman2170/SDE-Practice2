@@ -40,6 +40,7 @@ Welcome to our project! We appreciate your interest in contributing. Please foll
      git push origin feature-branch
      git checkout main
      git merge feature-branch
+     git push origin main
      ```
    - Visit the GitHub repository and create a Pull Request from your feature branch.
    - Provide a clear title and description for your Pull Request.
